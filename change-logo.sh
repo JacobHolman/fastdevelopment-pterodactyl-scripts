@@ -7,3 +7,4 @@ rm "pterodactyl.svg"
 curl -o "pterodactyl.svg" "$logo_link"
 cd ../../..
 php build:production
+echo "Logo was changed!"
