@@ -5,3 +5,5 @@ read logo_link
 cd /var/www/pterodactyl/public/assets/svgs
 rm "pterodactyl.svg"
 curl -o "pterodactyl.svg" "$logo_link"
+cd ../../..
+php build:production
